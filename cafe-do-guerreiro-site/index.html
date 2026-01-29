@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café do Guerreiro - Força, tradição e sabor em cada xícara. Nos visite para um café de qualidade artesanal.">
+    <meta name="theme-color" content="#8B4513">
+    <title>Café do Guerreiro - Site Completo</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%238B4513'>☕</text></svg>">
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#main" class="skip-to-main">Pular para conteúdo principal</a>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home"><img src="https://i.im.ge/2026/01/28/GB4kAD.imagem-2026-01-27-164839585.png" alt="Café do Guerreiro"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" onclick="setActive(event)">Home</a></li>
+                <li><a href="#sobre" class="nav-link" onclick="setActive(event)">Sobre</a></li>
+                <li><a href="#menu" class="nav-link" onclick="setActive(event)">Menu</a></li>
+                <li><a href="#galeria" class="nav-link" onclick="setActive(event)">Galeria</a></li>
+                <li><a href="#depoimentos" class="nav-link" onclick="setActive(event)">Depoimentos</a></li>
+                <li><a href="#blog" class="nav-link" onclick="setActive(event)">Blog</a></li>
+                <li><a href="#contato" class="nav-link" onclick="setActive(event)">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- HOME -->
+        <section id="home" class="hero">
+            <h2>Café do Guerreiro</h2>
+            <p class="subtitle">Força, tradição e sabor em cada xícara.</p>
+            <p class="hero-text">No Café do Guerreiro, acreditamos que um bom café é mais do que uma bebida: é um momento de pausa, foco e energia para enfrentar o dia.</p>
+            <a href="#menu" class="btn btn-primary">Conheça nosso menu</a>
+        </section>
+
+        <section class="highlights">
+            <h2>Nossos Destaques</h2>
+            <div class="cards-container">
+                <article class="card">
+                    <h3>☕ Cafés Especiais</h3>
+                    <p>Trabalhamos com grãos selecionados, torrados artesanalmente, garantindo aroma intenso e sabor marcante em cada preparo.</p>
+                </article>
+                <article class="card">
+                    <h3>🍰 Doces Artesanais</h3>
+                    <p>Nossos doces são preparados diariamente, com receitas tradicionais e ingredientes de alta qualidade.</p>
+                </article>
+                <article class="card">
+                    <h3>🏠 Ambiente Acolhedor</h3>
+                    <p>Um espaço pensado para quem busca tranquilidade, inspiração e boas conversas.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>O que dizem nossos clientes</h2>
+            <div class="testimonials-container">
+                <blockquote class="testimonial">
+                    <p>"O melhor café da região. Atendimento excelente e ambiente incrível. Venho aqui todos os dias!"</p>
+                    <footer>— Maria Silva, Cliente desde 2021</footer>
+                </blockquote>
+                <blockquote class="testimonial">
+                    <p>"Um lugar perfeito para trabalhar ou relaxar. Café forte como um guerreiro e croissants divinos."</p>
+                    <footer>— João Santos, Cliente desde 2022</footer>
+                </blockquote>
+                <blockquote class="testimonial">
+                    <p>"Finalmente encontrei um café que entende de qualidade. Estou viciado!"</p>
+                    <footer>— Ana Costa, Cliente desde 2023</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section style="text-align: center; padding: var(--spacing-lg); background: linear-gradient(135deg, #f5f5f0 0%, #d2b48c 100%); border-radius: 10px; margin-bottom: var(--spacing-xl);">
+            <h2 style="color: #2C1810;">Pronto para uma experiência única?</h2>
+            <p style="color: #555; margin-bottom: var(--spacing-md);">Visite-nos e descubra por que somos a melhor escolha da região.</p>
+            <a href="#contato" class="btn btn-primary">Entre em contato</a>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="about-hero">
+            <h1>Sobre o Café do Guerreiro</h1>
+        </section>
+
+        <section class="about-content">
+            <article>
+                <h2>Nossa História</h2>
+                <p>O Café do Guerreiro nasceu da paixão pelo café e da filosofia de que cada dia é uma batalha que merece ser enfrentada com energia e equilíbrio.</p>
+                <p>Inspirados pela disciplina, tradição e respeito aos detalhes, criamos um espaço onde o café é tratado como arte e o cliente como parte da família.</p>
+                <p>Aqui, cada xícara conta uma história de força, dedicação e qualidade.</p>
+            </article>
+
+            <article>
+                <h2>Nossos Valores</h2>
+                <ul class="values-list">
+                    <li>Qualidade acima de tudo</li>
+                    <li>Respeito às pessoas e ao processo</li>
+                    <li>Tradição aliada à inovação</li>
+                    <li>Ambiente acolhedor e humano</li>
+                </ul>
+            </article>
+
+            <figure class="about-image">
+                <a href="https://i.im.ge/2026/01/28/GGMvJm.imagem-2026-01-27-173309941.png" target="_blank"><img src="https://i.im.ge/2026/01/28/GGMvJm.imagem-2026-01-27-173309941.png" alt="Interior do Café do Guerreiro"></a>
+                <figcaption>Interior do Café do Guerreiro</figcaption>
+            </figure>
+        </section>
+
+        <!-- MENU -->
+        <section id="menu" class="menu-hero">
+            <h1>Nosso Menu</h1>
+            <p style="font-size: 1.1rem; margin-top: var(--spacing-md); color: white;">Sabor artesanal em cada preparação</p>
+        </section>
+
+        <section class="menu-content">
+            <article class="menu-section">
+                <h2>☕ Cafés</h2>
+                <ul class="menu-items">
+                    <li><strong>Espresso Guerreiro</strong><p>Café intenso e encorpado, perfeito para quem busca força</p></li>
+                    <li><strong>Cappuccino Clássico</strong><p>Café, leite vaporizado e espuma cremosa</p></li>
+                    <li><strong>Latte Artesanal</strong><p>Suave e equilibrado, ideal para momentos relaxantes</p></li>
+                    <li><strong>Café Filtrado</strong><p>Grãos selecionados preparados com precisão</p></li>
+                    <li><strong>Americano</strong><p>Café puro com água quente, levemente diluído</p></li>
+                </ul>
+            </article>
+
+            <article class="menu-section">
+                <h2>🍰 Doces</h2>
+                <ul class="menu-items">
+                    <li><strong>Bolo Caseiro</strong><p>Receita tradicional feita na hora</p></li>
+                    <li><strong>Brownie Artesanal</strong><p>Chocolate belga, fudgy e irresistível</p></li>
+                    <li><strong>Torta de Maçã</strong><p>Massa crocante com maçãs frescas</p></li>
+                    <li><strong>Pão de Mel</strong><p>Clássico brasileiro com chocolate</p></li>
+                    <li><strong>Mousse de Chocolate</strong><p>Leve, cremoso e elegantemente servido</p></li>
+                </ul>
+            </article>
+
+            <article class="menu-section">
+                <h2>🥐 Salgados</h2>
+                <ul class="menu-items">
+                    <li><strong>Pão de Queijo</strong><p>Quentinho, Minas Gerais autêntico</p></li>
+                    <li><strong>Croissant</strong><p>Folhado com manteiga premium</p></li>
+                    <li><strong>Sanduíche Artesanal</strong><p>Pão caseiro com ingredientes frescos</p></li>
+                    <li><strong>Quiche do Dia</strong><p>Receita variada preparada diariamente</p></li>
+                    <li><strong>Pastel Frito</strong><p>Crocante, quente e delicioso</p></li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- GALERIA -->
+        <section id="galeria" class="gallery-hero">
+            <h1>Galeria</h1>
+            <p style="font-size: 1.1rem; margin-top: var(--spacing-md); color: white;">Conheça nosso espaço, sabores e momentos especiais</p>
+        </section>
+
+        <section class="gallery-content">
+            <div class="gallery-item"><img src="https://i.im.ge/2026/01/28/GGO3Mz.imagem-2026-01-27-184726431.png" alt="imagem 2026 01 27 184726431" border="0"></a><div class="gallery-caption"><p>Ambiente Acolhedor</p></div></div>
+            <div class="gallery-item"><img src="https://www.tasteofhome.com/wp-content/uploads/2017/09/exps37407_THE1213734_37407_WEB.jpg" alt="Café especial"><div class="gallery-caption"><p>Cappuccino</p></div></div>
+            <div class="gallery-item"><img src="https://marmitexdesucesso.com.br/wp-content/uploads/2024/09/tipos-de-salgados-para-lanchonete-1.jpg" alt="Brownie"><div class="gallery-caption"><p>Comidas</p></div></div>
+            <div class="gallery-item"><img src="https://guiadacozinha.com.br/wp-content/uploads/2012/01/croissant-de-chocolate.jpg" alt="Croissant"><div class="gallery-caption"><p>Croissant</p></div></div>
+            <div class="gallery-item"><img src="https://swiftbr.vteximg.com.br/arquivos/ids/203135-636-636/622052-pao-de-queijo-assado-forno_1.jpg?v=638683136059570000" alt="Pão de queijo"><div class="gallery-caption"><p>Pão de Queijo</p></div></div>
+            <div class="gallery-item"><img src="https://static.vecteezy.com/ti/fotos-gratis/t2/25282026-estoque-do-misturar-uma-copo-cafe-cafe-com-leite-mais-motivo-topo-visao-comidagrafia-generativo-ai-foto.jpg" alt="Grãos"><div class="gallery-caption"><p>Café Premium</p></div></div>
+            <div class="gallery-item"><img src="https://i.im.ge/2026/01/28/GBJwvT.WhatsApp-Image-2026-01-27-at-16-14-38.jpeg" alt="Clientes"><div class="gallery-caption"><p>Momentos</p></div></div>
+            <div class="gallery-item"><img src="https://i.im.ge/2026/01/28/GGO2gD.imagem-2026-01-27-183921801.png" alt="Mesa"><div class="gallery-caption"><p>Experiências</p></div></div>
+            <div class="gallery-item"><img src="https://i.im.ge/2026/01/28/GGMvJm.imagem-2026-01-27-173309941.png" alt="Barista"><div class="gallery-caption"><p>Serviços</p></div></div>
+        </section>
+
+        <!-- DEPOIMENTOS -->
+        <section id="depoimentos" class="depoimentos-hero">
+            <h1>Depoimentos de Clientes</h1>
+            <p style="font-size: 1.1rem; margin-top: var(--spacing-md); color: white;">O que nossos clientes dizem</p>
+        </section>
+
+        <section class="depoimentos-content">
+            <article class="depoimento-card"><p>"Encontrei meu café perfeito aqui!"</p><div class="depoimento-author">⭐⭐⭐⭐⭐ Fabio Saldanha</div><div class="depoimento-date">Cliente desde 2025</div></article>
+            <article class="depoimento-card"><p>"Que lugar incrível!"</p><div class="depoimento-author">⭐⭐⭐⭐⭐ Carolina Silva</div><div class="depoimento-date">Cliente desde 2024</div></article>
+            <article class="depoimento-card"><p>"Meu espaço favorito!"</p><div class="depoimento-author">⭐⭐⭐⭐⭐ Roberto Costa</div><div class="depoimento-date">Cliente desde 2023</div></article>
+            <article class="depoimento-card"><p>"Os doces são perfeitos!"</p><div class="depoimento-author">⭐⭐⭐⭐⭐ Fernanda Oliveira</div><div class="depoimento-date">Cliente desde 2024</div></article>
+            <article class="depoimento-card"><p>"Qualidade superior!"</p><div class="depoimento-author">⭐⭐⭐⭐⭐ Lucas Martins</div><div class="depoimento-date">Cliente desde 2025</div></article>
+            <article class="depoimento-card"><p>"Definitivamente preferido!"</p><div class="depoimento-author">⭐⭐⭐⭐⭐ Beatriz Lima</div><div class="depoimento-date">Cliente desde 2024</div></article>
+            <article class="depoimento-card"><p>"Perfeito para trabalhar!"</p><div class="depoimento-author">⭐⭐⭐⭐⭐ Miguel Santos</div><div class="depoimento-date">Cliente desde 2023</div></article>
+            <article class="depoimento-card"><p>"Logo voltei!"</p><div class="depoimento-author">⭐⭐⭐⭐⭐ Sofia Dias</div><div class="depoimento-date">Cliente desde 2024</div></article>
+            <article class="depoimento-card"><p>"Recomendo para todos!"</p><div class="depoimento-author">⭐⭐⭐⭐⭐ Thiago Pereira</div><div class="depoimento-date">Cliente desde 2025</div></article>
+        </section>
+
+        <!-- BLOG -->
+        <section id="blog" class="blog-hero">
+            <h1>Blog</h1>
+            <p style="font-size: 1.1rem; margin-top: var(--spacing-md); color: white;">Dicas e histórias sobre café</p>
+        </section>
+
+        <section class="blog-content">
+            <article class="blog-post"><div class="blog-date">📅 25 de Janeiro, 2026</div><h3>Os Segredos da Extração Perfeita</h3><p class="blog-excerpt">Explore os segredos para extrair o espresso perfeito. Saiba mais sobre técnicas e temperaturas ideais.</p><a href="#" class="btn btn-text">Leia mais →</a></article>
+            <article class="blog-post"><div class="blog-date">📅 18 de Janeiro, 2026</div><h3>Café e Produtividade</h3><p class="blog-excerpt">Descubra como a cafeína afeta seu foco e quais são os melhores horários para beber café.</p><a href="#" class="btn btn-text">Leia mais →</a></article>
+            <article class="blog-post"><div class="blog-date">📅 12 de Janeiro, 2026</div><h3>Sustentabilidade no Café</h3><p class="blog-excerpt">Conheça nossas práticas sustentáveis e como selecionamos os melhores fornecedores.</p><a href="#" class="btn btn-text">Leia mais →</a></article>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="contact-hero">
+            <h1>Fale Conosco</h1>
+            <p style="font-size: 1.1rem; margin-top: var(--spacing-md); color: white;">Estamos aqui para ouvi-lo</p>
+        </section>
+
+        <section class="contact-content">
+            <article class="contact-info">
+                <h2>Entre em contato</h2>
+                <p>Tem alguma dúvida? Entre em contato conosco!</p>
+                <h3>📍 Localização</h3>
+                <p>Icaraí<br>Niterói - RJ</p>
+                <h3>📞 Contato</h3>
+                <ul>
+                    <li>Telefone: <strong>(21) 98807-2730</strong></li>
+                    <li>WhatsApp: <strong>(21) 98807-2730</strong></li>
+                    <li>Email: <strong>cafédoguerreiro86@gmail.com</strong></li>
+                </ul>
+                <h3>⏰ Horário</h3>
+                <ul>
+                    <li><strong>Seg-Sex:</strong> 7h às 20h</li>
+                    <li><strong>Sábado:</strong> 8h às 18h</li>
+                    <li><strong>Domingo:</strong> Fechado</li>
+                </ul>
+            </article>
+
+            <article class="contact-form-section">
+                <h2>Envie uma mensagem</h2>
+                <form method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                        <div class="form-hints">Obrigatório</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                        <div class="form-hints">Email válido</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="telefone" name="telefone" placeholder="(21) 98807-2730" inputmode="numeric">
+                        <div class="form-hints">Opcional</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="assunto">Assunto</label>
+                        <input type="text" id="assunto" name="assunto" required placeholder="Assunto">
+                        <div class="form-hints">Obrigatório</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" required placeholder="Sua mensagem..."></textarea>
+                        <div class="form-hints">Obrigatório</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <section class="footer-section">
+                <h3>☕ Café do Guerreiro</h3>
+                <p>Qualidade e tradição em cada xícara.</p>
+                <p><strong>Desde 2020</strong></p>
+            </section>
+            <section class="footer-section">
+                <h3>Horário</h3>
+                <ul>
+                    <li>Seg-Sex: 7h-20h</li>
+                    <li>Sábado: 8h-18h</li>
+                    <li>Domingo: Fechado</li>
+                </ul>
+            </section>
+            <section class="footer-section">
+                <h3>Navegação</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Café do Guerreiro • Todos os direitos reservados • Feito com ❤️ e ☕</p>
+        </div>
+    </footer>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
